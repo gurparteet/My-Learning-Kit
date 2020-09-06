@@ -1,0 +1,126 @@
+body {
+    background-image: url("img.jpg");
+}
+
+
+
+header {
+    width: 40%;
+    margin: 20px  auto;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate ;
+
+
+}
+#container {
+    background-color: lightgray;
+    width: 70%;
+    margin: 20px  auto;
+    padding: 20px;
+    
+
+
+}
+.problem {
+    background-color: gray;
+    width: 60%;
+    margin: 20px  auto;
+    padding: 20px;
+    border-radius: 14px;
+    
+}
+
+p {
+    border: white solid 4px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 20px  auto;
+    padding: 20px;
+    color:white ;
+    font-size: 2.0rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    overflow: auto ;
+}
+div {
+    background-color: gray;
+    width: 60%;
+    margin: 20px  auto;
+    padding: 20px;
+    color: white;
+    text-decoration: white;
+    font-size: larger;
+    font-weight: 100;
+}
+
+
+button {
+    
+    border-radius: 22px;
+    background-color: lawngreen;
+    border: white solid 3px;
+    align-items: center;
+    width: 30%;
+    margin: 40px  90px;
+    padding: 10px;
+}
+button:hover {
+    background-color: red ;
+}
+
+/*after here */ 
+.flowchart {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .flowchart:hover .image {
+    opacity: 0.3;
+  }
+  
+  .flowchart:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  a {
+      color: white;
+  }
+
+  #fibonac
+  {
+    overflow: auto;
+  }
+  #outputchr {
+    text-align: left;
+  }

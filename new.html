@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Toolkit</title>
+        <link rel="stylesheet" type="text/css" href="new.css">
+        <script src="new.js"></script>
+    </head>
+
+        <body>
+            
+                <header>
+                    My Learning Toolkit  
+                </header>
+                               
+                <div id="container">
+
+                             <!-- problem 1 -->
+
+                   <div class="problem">
+                    <p>1) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                     </div> 
+    
+                        <p id="output"></p>
+                            <div class="flowchart">
+                             <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                             <div class="middle">
+                             <div class="text"><a class="image-link" href="flowcharts/1.jpg">Flowchart</a></div>
+                             </div>
+                             </div>
+                  </div>
+                
+                                    <!-- problem 2 -->
+                                
+                  <div class="problem">
+                      <p>2) Area of triangle</p>
+                      <div>
+                          a:<input type="number" id="a">
+                          <br>
+                          b:<input type="number" id="b">
+                          <br>
+                          c:<input type="number" id="c">
+                          <br>
+                          <button onclick="areat()" id="areat">Enter</button>
+                      </div>
+      
+                      <p id="areatri"> </p>
+                            <div class="flowchart">
+                             <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                             <div class="middle">
+                             <div class="text"><a class="image-link" href="flowcharts/2.jpg">Flowchart</a></div>
+                             </div>
+                             </div>
+                </div>
+
+                                     <!-- problem 3 --> 
+
+                 <div class="problem">
+                  <p>3) Roots of equation</p>
+                  <div>
+                      d:<input type="number" id="d">
+                      <br>
+                      e:<input type="number" id="e">
+                      <br>
+                      f:<input type="number" id="f">
+                      <br>
+                      <button onclick="quadroot()" id="areat">Enter</button>
+                  </div>
+  
+                  <p id="rootquad"> </p>
+
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flowcharts/3.jpg">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                                  <!-- problem 4 -->
+                
+                <div class="problem">
+                  <p>4) Check the num </p>
+                  <div>
+                      Number :<input type="number" id="numm">
+                    
+                    <button onclick="show()" id="pro">Click </button>
+                   </div> 
+  
+                      <p id="show"></p>
+  
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flowcharts/4.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 5 -->
+
+                  <div class="problem">
+                    <p>5) Check the num whith While loop </p>
+                    <div>               
+                    <button onclick="show2()" id="pro2">Click </button>
+                     </div> 
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flowcharts/5.jpg">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 6 -->
+
+                <div class="problem">
+                  <p>6) Divisible by 6 </p>
+                  <div>                 
+                   <button onclick="show3()" id="pro3">Click to run !! </button>
+                   </div> 
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 7 -->
+
+                <div class="problem">
+                  <p>7) Reverse the Number</p>
+
+                  <div>
+                      Number :<input type="number" id="num4" min="0" max="99999">
+                    
+                    <button onclick="reverse()" id="reverse">Click </button>
+                   </div> 
+  
+                      <p id="showreverse"></p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 8 -->
+
+                <div class="problem">
+                  <p>8) Check if your Number has 7 digit</p>
+
+                  <div>
+                      Number :<input type="number" id="n7" >
+                    
+                    <button onclick="dig7()" id="dig7">Click </button>
+                   </div> 
+  
+                      <p id="7dig"></p>
+                      
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 9 -->
+
+                <div class="problem">
+                    <p> 9 ) Sum the digits</p>
+                    <div>
+                        Number 1:<input type="number" id="newnum">
+                      
+                        <button onclick="sumdig()" id="problem">Click </button>
+                    </div> 
+                     <p id="digsum">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+
+                <!-- problem 10 -->
+
+                <div class="problem">
+                    <p> 10) Palindrome number check</p>
+                    <div>
+                        Number 1:<input type="number" id="numP">
+                      <br>
+                      <button onclick="palin()" id="Palindrome">Click </button>
+                    </div> 
+                     <p id="pal">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 11 -->
+
+                <div class="problem">
+                  <p> 11) Factorial</p>
+                  <div>
+                      Number :<input type="number" id="fac">
+                    
+                    <br>
+                    <button onclick="factorial()" id="f">Click </button>
+                  </div> 
+                   <p id="outputfac">  
+
+                   </p>
+                  <div class="flowchart">
+                   <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                   <div class="middle">
+                   <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                   </div>
+                   </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 12 -->
+
+                <div class="problem">
+                    <p> 12) Factorial with while loop</p>
+                    <div>
+                      <button onclick="facwhile()">click</button>
+                    </div>
+                     
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 13 -->
+                <div class="problem">
+                    <p> 13) Fibonacci Sequence</p>
+                    <div>
+                        Number :<input type="number" id="fib">
+                       <br>
+                      <button onclick="fibonacci()">Click </button>
+                    </div> 
+                     <p id="fibonac">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 14 -->
+
+                <div class="problem">
+                    <p> 14) Chromosome tree</p>
+                    <div>
+                        Number :<input type="number" id="chro">
+                        <br>
+                      <button onclick="chromosome()" >Click </button>
+                    </div> 
+                     <p id="outputchr">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 15 -->
+
+                <div class="problem">
+                    <p> 15 ) Convert Base 10 to base 8  using  .tostring</p>
+                    <div>
+                        Number :<input type="number" id="base10">
+                       <br>
+                      <button onclick="btob()" >Click </button>
+                    </div> 
+                     <p id="outbase8">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 16 -->
+
+                <div class="problem">
+                    <p> 16 )Convert Base 10 to base 8 without string</p>
+                    <div>
+                        Number :<input type="number" id="bse10">
+                       <br>
+                      <button onclick="btb()" id="stp">Click </button>
+                    </div> 
+                     <p id="outb8">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+
+                <!-- problem 17 -->
+                
+                <div class="problem">
+                    <p> 17) Perfect Number</p>
+                    <div>
+                      <button onclick="perfectnum()" id="per">Click </button>
+                    </div> 
+                     <p id="outputperfect"> </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                
+                <!-- problem 18 -->
+
+                <div class="problem">
+                    <p> 18) Counting negative amoung first 10 and last postive 10 out of 40  </p>
+                    <div>
+                      <button onclick="from40()" id="prob">Click </button>
+                    </div> 
+                     <p id="output40">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 19 -->
+
+                <div class="problem">
+                    <p> 19) 1's counter </p>
+                    <div>
+                    <button onclick="counter1()" >Click </button>
+                    </div> 
+                     <p id="output1s">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 20 -->
+
+                <div class="problem">
+                    <p> 20) Self Dividing number </p>
+                    <div>
+                    <button onclick="selfdivide()" id="problem">Click </button>
+                    </div> 
+                    
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 21 -->
+                <div class="problem">
+                    <p> 21) Binary to decimal </p>
+                    <div>
+                      <button onclick="bintodec()">Click </button>
+                    </div> 
+                   
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 22 -->
+                <div class="problem">
+                    <p> 22 ) Square root with sqrt function  with do while loop  </p>
+                    <div>
+                    <button onclick="sqrt()">Click </button>
+                    </div> 
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+                      
+    
+                </div>
+                <!-- problem 23 -->
+                <div class="problem">
+                    <p> 23 ) Square root with sqrt function  with  while loop</p>
+                    <div>
+                     <button onclick="sqrtw()">Click </button>
+                    </div> 
+                     <p id="outsqt"> 
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+                     
+                    
+    
+                </div>
+                <!-- problem 24 -->
+
+                <div class="problem">
+                    <p> 24) Balanced Number</p>
+                    <div>
+                     <button onclick="balnced()" >Click </button>
+                    </div> 
+                     <p id="outbal">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 25 -->
+                <div class="problem">
+                    <p> 25) Non-Ascending order</p>
+                    <div>
+                      <button onclick="nonas()" >Click </button>
+                    </div> 
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 26 -->
+                <div class="problem">
+                    <p> 26 ) Check if power of 2 
+                    <div>
+                   <button onclick="power2()" id="problem">Click </button>
+                    </div> 
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 27 -->
+                <div class="problem">
+                    <p> 27 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 28 -->
+                <div class="problem">
+                    <p> 28) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 29 -->
+                <div class="problem">
+                    <p> 29) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 30 -->
+
+                <div class="problem">
+                    <p> 30) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 31 -->
+                <div class="problem">
+                    <p> 31) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 32 -->
+                <div class="problem">
+                    <p> 32 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 33 -->
+                <div class="problem">
+                    <p> 33) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 34 -->
+                <div class="problem">
+                    <p> 34 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 35 -->
+                <div class="problem">
+                    <p> 35 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 36 -->
+                <div class="problem">
+                    <p> 36 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 37 -->
+                <div class="problem">
+                    <p> 37 ) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 38 -->
+                <div class="problem">
+                    <p> 38) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 39 -->
+                <div class="problem">
+                    <p> 39) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>
+                <!-- problem 40 -->
+                <div class="problem">
+                    <p> 40) Sum the Num</p>
+                    <div>
+                        Number 1:<input type="number" id="num1">
+                      <br>
+                        Number 2:<input type="number" id="num2">
+                      <br>
+                      <button onclick="sum1()" id="problem">Click </button>
+                    </div> 
+                     <p id="output">  
+
+                     </p>
+                    <div class="flowchart">
+                     <img src="flow.png" alt="Avatar" class="image" style="width:60%">
+                     <div class="middle">
+                     <div class="text"><a class="image-link" href="flow.png">Flowchart</a></div>
+                     </div>
+                     </div>
+                         
+    
+                    
+    
+                </div>              
+                
+                    
+                         
+                         
+                             
+        
+                        
+        
+                    
+                 </div> 
+            
+
+        </body>
+</html>
+
+
+
